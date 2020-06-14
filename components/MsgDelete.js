@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Router from 'next/router';
-import firebase from 'firebase';
+import firebase from 'firebase/app';
 import Lib from '../static/address_lib';
 
 class MsgDelete extends Component {
