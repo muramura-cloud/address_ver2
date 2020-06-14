@@ -76,7 +76,7 @@ class Account extends Component {
                     </div>
                     :
                     <p className="login">
-                        <span className="btn" onClick={this.login_check}>ログイン：click!</span>
+                        <span className="btn" onClick={this.login_check}>ログイン：click</span>
                     </p>
                 }
             </div>
