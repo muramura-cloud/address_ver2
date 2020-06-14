@@ -2,11 +2,10 @@ import React, { Component } from 'react';
 import Head from 'next/head';
 import Header from './Header';
 import Footer from './Footer';
-import style from '../static/Style';
+import '../static/style.css';
 
 class Layout extends Component {
     render() {
-        {style}
         return (
             <div>
                 <Head>
@@ -14,7 +13,7 @@ class Layout extends Component {
                     <meta charSet="utf-8" />
                     <meta name="viewport" content="initial-scale=1.0,width=device-width" />
                 </Head>
-                <Header header={this.props.header}/>
+                <Header header={this.props.header} />
                 {this.props.children}
                 <Footer footer="copy right MURATARIKU" />
             </div>
